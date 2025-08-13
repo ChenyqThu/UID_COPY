@@ -1,0 +1,135 @@
+{
+  "languages": {
+    "ar_SA": {
+      "name": "Arabic (Saudi Arabia)",
+      "nativeName": "العربية (المملكة العربية السعودية)",
+      "direction": "rtl",
+      "notes": "Use Modern Standard Arabic. Keep technical terms in Latin script when commonly used. Use formal tone for system messages."
+    },
+    "bg_BG": {
+      "name": "Bulgarian",
+      "nativeName": "български",
+      "direction": "ltr",
+      "notes": "Use standard Bulgarian. Technical terms should be transliterated or kept in English when commonly used."
+    },
+    "cs_CZ": {
+      "name": "Czech",
+      "nativeName": "čeština",
+      "direction": "ltr",
+      "notes": "Use standard Czech. Pay attention to declension cases for UI elements."
+    },
+    "de_DE": {
+      "name": "German",
+      "nativeName": "Deutsch",
+      "direction": "ltr",
+      "notes": "Use standard German. Capitalize nouns appropriately. Use formal 'Sie' form for system messages."
+    },
+    "fr_FR": {
+      "name": "French",
+      "nativeName": "français",
+      "direction": "ltr", 
+      "notes": "Use standard French. Pay attention to gender agreement and formal 'vous' form."
+    },
+    "hu_HU": {
+      "name": "Hungarian",
+      "nativeName": "magyar",
+      "direction": "ltr",
+      "notes": "Use standard Hungarian. Pay attention to definite/indefinite articles and case endings."
+    },
+    "it_IT": {
+      "name": "Italian",
+      "nativeName": "italiano",
+      "direction": "ltr",
+      "notes": "Use standard Italian. Pay attention to gender agreement and formal tone."
+    },
+    "ja_JP": {
+      "name": "Japanese",
+      "nativeName": "日本語",
+      "direction": "ltr",
+      "notes": "Use polite form (丁寧語). Mix Hiragana, Katakana, and Kanji appropriately. Keep technical terms in Katakana when commonly used."
+    },
+    "ko_KR": {
+      "name": "Korean",
+      "nativeName": "한국어",
+      "direction": "ltr",
+      "notes": "Use formal/polite form (존댓말). Technical terms can be kept in English or translated to Hangul based on common usage."
+    },
+    "nl_NL": {
+      "name": "Dutch",
+      "nativeName": "Nederlands",
+      "direction": "ltr",
+      "notes": "Use standard Dutch. Pay attention to formal tone and compound word formation."
+    },
+    "pl_PL": {
+      "name": "Polish",
+      "nativeName": "polski",
+      "direction": "ltr",
+      "notes": "Use standard Polish. Pay attention to declension cases and formal tone."
+    },
+    "pt_PT": {
+      "name": "Portuguese",
+      "nativeName": "português",
+      "direction": "ltr",
+      "notes": "Use European Portuguese. Pay attention to gender agreement and formal tone."
+    },
+    "ro_RO": {
+      "name": "Romanian",
+      "nativeName": "română",
+      "direction": "ltr",
+      "notes": "Use standard Romanian. Pay attention to definite articles and formal tone."
+    },
+    "ru_RU": {
+      "name": "Russian",
+      "nativeName": "русский",
+      "direction": "ltr",
+      "notes": "Use standard Russian. Pay attention to declension cases and formal tone (вы form)."
+    },
+    "sk_SK": {
+      "name": "Slovak",
+      "nativeName": "slovenčina",
+      "direction": "ltr",
+      "notes": "Use standard Slovak. Pay attention to declension cases and formal tone."
+    },
+    "sr_SR": {
+      "name": "Serbian",
+      "nativeName": "српски",
+      "direction": "ltr",
+      "notes": "Use Cyrillic script. Pay attention to formal tone and technical term adaptation."
+    },
+    "tr_TR": {
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "direction": "ltr",
+      "notes": "Use standard Turkish. Pay attention to vowel harmony and formal tone."
+    },
+    "uk_UA": {
+      "name": "Ukrainian",
+      "nativeName": "українська",
+      "direction": "ltr",
+      "notes": "Use standard Ukrainian. Pay attention to declension cases and formal tone (ви form)."
+    },
+    "zh_TW": {
+      "name": "Chinese (Traditional)",
+      "nativeName": "繁體中文",
+      "direction": "ltr",
+      "notes": "Use Traditional Chinese characters. Keep technical terms appropriate for Taiwan usage."
+    }
+  },
+  "reference": "en_US",
+  "commonTechnicalTerms": [
+    "TP-Link",
+    "TP-Link ID", 
+    "2FA",
+    "MFA",
+    "API",
+    "JSON",
+    "HTTP",
+    "HTTPS",
+    "URL",
+    "UUID",
+    "OAuth",
+    "TOTP",
+    "QR",
+    "VPN"
+  ]
+}
