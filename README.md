@@ -1,6 +1,6 @@
 # UID Auto Translator
 
-Automated translation system for TP-Link Unified ID multi-language localization using LLM services.
+Automated translation system for multi-language localization using LLM services.
 
 ## Features
 
@@ -29,13 +29,22 @@ npm install
 
 ### 2. Configuration
 
-Edit `.env` file with your LLM API settings:
+Edit `.env` file with your Gemini API settings:
 
 ```env
-LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_API_KEY=your_api_key_here
-LLM_MODEL=gpt-4
+# Get your API key from: https://aistudio.google.com/app/apikey
+LLM_API_KEY=your_gemini_api_key_here
+LLM_MODEL=gemini-2.5-flash
+LLM_TEMPERATURE=0.1
+LLM_MAX_TOKENS=500000
+VALIDATION_MODEL=gemini-2.5-pro
 ```
+
+**📋 Get Gemini API Key:**
+1. Visit [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. Sign in with your Google account
+3. Click "Create API Key" 
+4. Copy the generated key to your `.env` file
 
 ### 3. Test Setup
 
@@ -161,13 +170,13 @@ node i18n-auto-translator.js test
 ### Environment Variables (.env)
 
 ```env
-# LLM API Configuration
-LLM_API_URL=https://api.openai.com/v1/chat/completions
-LLM_API_KEY=your_api_key_here
-LLM_MODEL=gpt-4
-VALIDATION_MODEL=gemini-2.0-flash-exp  # Stronger model for validation
+# Gemini API Configuration
+# Get your API key from: https://aistudio.google.com/app/apikey
+LLM_API_KEY=your_gemini_api_key_here
+LLM_MODEL=gemini-2.5-flash
+VALIDATION_MODEL=gemini-2.5-pro  # Stronger model for validation
 LLM_TEMPERATURE=0.1
-LLM_MAX_TOKENS=4000
+LLM_MAX_TOKENS=500000
 
 # Translation Configuration
 MAX_RETRIES=3

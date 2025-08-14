@@ -31,10 +31,19 @@ cp .env.example .env
 
 必需配置：
 ```env
+# 在此获取 API 密钥：https://aistudio.google.com/app/apikey
 LLM_API_KEY=your_gemini_api_key_here
-LLM_MODEL=gemini-2.5-pro
-VALIDATION_MODEL=gemini-2.0-flash-exp
+LLM_MODEL=gemini-2.5-flash
+LLM_TEMPERATURE=0.1
+LLM_MAX_TOKENS=500000
+VALIDATION_MODEL=gemini-2.5-pro
 ```
+
+**🔑 获取 Gemini API 密钥：**
+1. 访问 [Google AI Studio](https://aistudio.google.com/app/apikey)
+2. 使用 Google 账号登录
+3. 点击「创建 API 密钥」
+4. 将生成的密钥复制到 `.env` 文件
 
 ### 3. 测试连接
 
@@ -158,14 +167,15 @@ node i18n-auto-translator.js status
 ### 环境变量
 
 ```env
-# LLM API 配置
-LLM_API_KEY=your_api_key_here
-LLM_MODEL=gemini-2.5-pro
+# Gemini API 配置
+# 在此获取 API 密钥：https://aistudio.google.com/app/apikey
+LLM_API_KEY=your_gemini_api_key_here
+LLM_MODEL=gemini-2.5-flash
 LLM_TEMPERATURE=0.1
-LLM_MAX_TOKENS=4000
+LLM_MAX_TOKENS=500000
 
 # 验证配置
-VALIDATION_MODEL=gemini-2.0-flash-exp
+VALIDATION_MODEL=gemini-2.5-pro
 
 # 翻译配置
 MAX_RETRIES=3
