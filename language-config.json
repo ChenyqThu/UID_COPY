@@ -113,6 +113,12 @@
       "nativeName": "繁體中文",
       "direction": "ltr",
       "notes": "Use Traditional Chinese characters. Keep technical terms appropriate for Taiwan usage."
+    },
+    "es_ES": {
+      "name": "Spanish (Spain)",
+      "nativeName": "español (España)",
+      "direction": "ltr",
+      "notes": "Use standard European Spanish. Use formal 'usted' form for system messages. Keep technical terms in English when commonly used (API, URL, etc.). Use Spanish translation for generic tech terms. Pay attention to gender agreement."
     }
   },
   "reference": "en_US",
